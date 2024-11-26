@@ -21,7 +21,7 @@ print('포켓몬 정보:', pokemon)
 #접근
 print("이름:", pokemon["name"])  # 대괄호 접근
 print("타입:", pokemon["type"])
-print("레벨:", pokemon.get("levlel")) #get() 메서드 접근
+print("레벨:", pokemon.get("level")) #get() 메서드 접근
 print("스킬:", pokemon["skill"][0])
 
 # 2. 딕셔너리 수정
@@ -30,6 +30,7 @@ print("수정 후:", pokemon)
 pokemon["speed"] = 5
 print("항목 추가:", pokemon)
 pokemon.update({"HP":200})
+print("수정 후:", pokemon)
 
 # 3. 딕셔너리 삭제 메서드
 remove_value = pokemon.pop("speed")

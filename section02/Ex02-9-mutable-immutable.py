@@ -32,7 +32,7 @@ print('메모리 주소:', id(level))
 
 
 age = 25
-primt('age:', age)
+print('age:', age)
 print('메모리 주소:', id(age))
 
 '''
