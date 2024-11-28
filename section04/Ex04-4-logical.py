@@ -13,6 +13,6 @@ b = 0
 print(f'{a} > 0 and {b} > 0: {a > 0 and b > 0}')
 print(f'{a} > 0 or {b} > 0: {a > 0 or b > 0}')
 
-print(f'not {a}: {not a}')
+print(f'not {a}: {not a}') #non-zero values are truthy in Python 하지만 not 이기땜 false
 print(f'not {b}: {not b}')
 

@@ -37,8 +37,12 @@ print(a)
 b = chr(65)
 print(b)
 
+
+print(int(float('3.14')))
 '''
+
 주의사항:
 부적절한 형변환 시도 시 ValueError 발생
     int('3.14')
+    should be --> int(float('3.14'))
 '''

@@ -29,3 +29,6 @@ print('test:', test)
 
 
 print("Hello\bWorld")
+
+s = "123\b4"
+print(s)

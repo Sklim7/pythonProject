@@ -34,7 +34,7 @@ print('%s의 레벨은 %d입니다.' % (pokemon,level))
 print('2.format()함수')
 print('포켓몬: {}' .format(pokemon))
 print('레벨: {}' .format(level))
-print('체력: {:.1f}'.format(hp))
+print('체력: {:.0f}'.format(hp))
 
 print('3. f-string')
 print(f'포켓몬: {pokemon}')
