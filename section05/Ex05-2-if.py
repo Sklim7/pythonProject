@@ -20,19 +20,19 @@ if player == computer:
 elif player == '가위':
     if computer == '보':
         print('이겼습니다')
-    else
+    else:
         print ('졌습니다')
 
 elif player == '바위':
     if computer == '가위':
         print('이겼습니다')
-    else
+    else:
         print ('졌습니다')
 
 elif player == '보':
     if computer == '바위':
         print('이겼습니다')
-    else
+    else:
         print ('졌습니다')
 
 else:
