@@ -34,3 +34,4 @@ my_list = [1,2,3,4,5]
 random.shuffle(my_list)
 print(my_list)
 
+4, 8, 14, 18, 44, 45]
