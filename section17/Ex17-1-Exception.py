@@ -8,6 +8,7 @@
 '''
 
 try:
+    print('서버 접속 합니다.')
     a= int(input('제수를 입력하세요>>>>'))
     b= int(input('피제수를 입력하세요>>>'))
     print(f'a/b: {a/b}')
@@ -19,5 +20,7 @@ except ZeroDivisionError:
     print('0으로 나누는 것은 불가능합니다.')
 except:
     print('예외가 발생헀습니다.')
-else:
+else: #예외가 발생하지 않으면 처리되는 영역
     print('정상종료!')
+finally:
+    print('서버 접속 종료합니다.')
