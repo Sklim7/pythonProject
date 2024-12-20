@@ -10,3 +10,4 @@ month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 
 for month, day in enumerate(month):
     print(f'{month+1}월 = {day}일')
+

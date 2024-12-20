@@ -19,3 +19,4 @@ with open('회원명단.csv', 'rt', encoding='UTF-8') as file:
     member_list.append(member)
 
 print(member_list)
+

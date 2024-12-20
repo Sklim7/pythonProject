@@ -8,7 +8,10 @@ import random
 import time
 
 # 리스트 컴프리헨션(list comprehension)문법
-pot = [n for n in range(1,46)]
+pot = [n for n in range(1,46)] #creates a list from 1 to 45. same as code below.
+#pot = []
+#for n in range(1, 46):
+    #pot.append(n)
 jackpot = []
 
 for n in range(1,7):
@@ -21,3 +24,4 @@ for n in range(1,7):
 
 jackpot.sort()
 print(jackpot)
+

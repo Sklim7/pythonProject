@@ -21,9 +21,9 @@ print(random.random())
 
 # 예시, 확률 50퍼
 if random.random() < 0.5:
-    print('s')
+    print('안녕하세요')
 else:
-    print("l")
+    print("안녕")
 
 #choice 함수 - 리스트에서 랜덤
 seasons = ['spring', 'summer','fall','winter']
@@ -34,4 +34,3 @@ my_list = [1,2,3,4,5]
 random.shuffle(my_list)
 print(my_list)
 
-#4, 8, 14, 18, 44, 45]

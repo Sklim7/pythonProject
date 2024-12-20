@@ -17,7 +17,7 @@ s1 = {'apple', 'banana', 'cherry'}
 s2 = {'apple', 'banana', 'orange'}
 result = s1.union(s2)
 print(result)
-print(s1 & s2) $$$$$$
+print(s1 | s2)
 
 # 차집합 difference
 s1 = {'apple', 'banana', 'cherry'}
